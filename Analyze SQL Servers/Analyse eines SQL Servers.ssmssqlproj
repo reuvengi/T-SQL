@@ -1,0 +1,215 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Analyse eines SQL Servers">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="NB-LENOVO-I\SQL_2016:DESKTOP-NQ3TJEO\Christian">
+          <Created>2017-05-01T08:42:54.1146706+02:00</Created>
+          <Type>SQL</Type>
+          <Server>NB-LENOVO-I\SQL_2016</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="001 - A00 - System Environment - Generic Information.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NB-LENOVO-I\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NB-LENOVO-I\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>001 - A00 - System Environment - Generic Information.sql</FullPath>
+        </FileNode>
+        <FileNode Name="001 - A01 - System Environment - Security of service account.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NB-LENOVO-I\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NB-LENOVO-I\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>001 - A01 - System Environment - Security of service account.sql</FullPath>
+        </FileNode>
+        <FileNode Name="001 - A02 - System Environment - SQL Server Logins and server roles.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NB-LENOVO-I\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NB-LENOVO-I\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>001 - A02 - System Environment - SQL Server Logins and server roles.sql</FullPath>
+        </FileNode>
+        <FileNode Name="001 - A03 - System Environment - Drive Latency.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NB-LENOVO-I\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NB-LENOVO-I\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>001 - A03 - System Environment - Drive Latency.sql</FullPath>
+        </FileNode>
+        <FileNode Name="001 - A04 - System Environment - Configuration.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NB-LENOVO-I\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NB-LENOVO-I\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>001 - A04 - System Environment - Configuration.sql</FullPath>
+        </FileNode>
+        <FileNode Name="001 - A05 - System Environment - Page Life Expectancy.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NB-DELL-13\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NB-DELL-13\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>001 - A05 - System Environment - Page Life Expectancy.sql</FullPath>
+        </FileNode>
+        <FileNode Name="001 - A06 - System Environment - SQL Agent Job Information.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NB-DELL-13\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NB-DELL-13\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>001 - A06 - System Environment - SQL Agent Job Information.sql</FullPath>
+        </FileNode>
+        <FileNode Name="001 - A07 - System Environment - Backup-Information.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>001 - A07 - System Environment - Backup-Information.sql</FullPath>
+        </FileNode>
+        <FileNode Name="002 - A01 - Database analysis - Distribution of databases.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NB-LENOVO-I\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NB-LENOVO-I\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>002 - A01 - Database analysis - Distribution of databases.sql</FullPath>
+        </FileNode>
+        <FileNode Name="002 - A02 - Database analysis - Database size and consumption.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NB-LENOVO-I\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NB-LENOVO-I\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>002 - A02 - Database analysis - Database size and consumption.sql</FullPath>
+        </FileNode>
+        <FileNode Name="002 - A03 - Database analysis - Database Settings.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NB-DELL-13\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NB-DELL-13\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>002 - A03 - Database analysis - Database Settings.sql</FullPath>
+        </FileNode>
+        <FileNode Name="002 - A04 - Database analysis - Bufferpool usage.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NB-LENOVO-I\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NB-LENOVO-I\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>002 - A04 - Database analysis - Bufferpool usage.sql</FullPath>
+        </FileNode>
+        <FileNode Name="002 - A05 - Database analysis - IO analysis.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>002 - A05 - Database analysis - IO analysis.sql</FullPath>
+        </FileNode>
+        <FileNode Name="002 - A06 - Database analysis - CPU analysis.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NB-LENOVO-I\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NB-LENOVO-I\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>002 - A06 - Database analysis - CPU analysis.sql</FullPath>
+        </FileNode>
+        <FileNode Name="003 - A01 - TEMPDB analysis - data file information.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NB-LENOVO-I\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NB-LENOVO-I\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>003 - A01 - TEMPDB analysis - data file information.sql</FullPath>
+        </FileNode>
+        <FileNode Name="003 - A02 - TEMPDB analysis - Allocation by object types.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NB-LENOVO-I\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NB-LENOVO-I\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>003 - A02 - TEMPDB analysis - Allocation by object types.sql</FullPath>
+        </FileNode>
+        <FileNode Name="003 - A03 - TEMPDB analysis - page latch contention.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NB-DELL-13\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NB-DELL-13\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>003 - A03 - TEMPDB analysis - page latch contention.sql</FullPath>
+        </FileNode>
+        <FileNode Name="003 - A04 - TEMPDB analysis - space allocation by session.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>003 - A04 - TEMPDB analysis - space allocation by session.sql</FullPath>
+        </FileNode>
+        <FileNode Name="004 - A01 - What tasks are CURRENTLY waiting.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>004 - A01 - What tasks are CURRENTLY waiting.sql</FullPath>
+        </FileNode>
+        <FileNode Name="004 - A02 - Waiting - Analysis of wait stats.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NB-LENOVO-I\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NB-LENOVO-I\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>004 - A02 - Waiting - Analysis of wait stats.sql</FullPath>
+        </FileNode>
+        <FileNode Name="004 - A03 - Analysis of latches.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>004 - A03 - Analysis of latches.sql</FullPath>
+        </FileNode>
+        <FileNode Name="005 - A01 - Index usage in dedicated database.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>005 - A01 - Index usage in dedicated database.sql</FullPath>
+        </FileNode>
+        <FileNode Name="005 - A02 - Index physical stats in dedicated database.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NB-LENOVO-I\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NB-LENOVO-I\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>005 - A02 - Index physical stats in dedicated database.sql</FullPath>
+        </FileNode>
+        <FileNode Name="005 - A03 - Statistics in explicit database.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NB-LENOVO-I\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NB-LENOVO-I\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>005 - A03 - Statistics in explicit database.sql</FullPath>
+        </FileNode>
+        <FileNode Name="005 - A04 - Missing Indexes and its impact.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NB-DELL-13\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NB-DELL-13\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>005 - A04 - Missing Indexes and its impact.sql</FullPath>
+        </FileNode>
+        <FileNode Name="005 - A05 - Analyze of the plan cache.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NB-LENOVO-I\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NB-LENOVO-I\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>005 - A05 - Analyze of the plan cache.sql</FullPath>
+        </FileNode>
+        <FileNode Name="005 - A06 - find cxpacket queries in the plan cache.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NB-LENOVO-I\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NB-LENOVO-I\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>005 - A06 - find cxpacket queries in the plan cache.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items>
+        <FileNode Name="Analyse eines SQL Servers.pptx">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Analyse eines SQL Servers.pptx</FullPath>
+        </FileNode>
+        <FileNode Name="Analysis of SQL Server.pptx">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Analysis of SQL Server.pptx</FullPath>
+        </FileNode>
+        <FileNode Name="Analysisreport - DE.docx">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Analysisreport - DE.docx</FullPath>
+        </FileNode>
+        <FileNode Name="Analysisreport - V.1.0.dotx">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Analysisreport - V.1.0.dotx</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
