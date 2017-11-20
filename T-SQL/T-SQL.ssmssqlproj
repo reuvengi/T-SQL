@@ -2,7 +2,32 @@
 <SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="T-SQL">
   <Items>
     <LogicalFolder Name="Connections" Type="2" Sorted="true">
-      <Items />
+      <Items>
+        <ConnectionNode Name="metricus.database.windows.net:chs@venzoanalytics.com">
+          <Created>2017-11-15T12:30:14.4992941+01:00</Created>
+          <Type>SQL</Type>
+          <Server>metricus.database.windows.net</Server>
+          <UserName>chs@venzoanalytics.com</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB>master</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="va-dev.database.windows.net:chs@venzoanalytics.com">
+          <Created>2017-11-16T11:02:04.5581045+01:00</Created>
+          <Type>SQL</Type>
+          <Server>va-dev.database.windows.net</Server>
+          <UserName>chs@venzoanalytics.com</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
@@ -12,10 +37,16 @@
           <AssociatedConnUserName />
           <FullPath>AAG_Queries.sql</FullPath>
         </FileNode>
+        <FileNode Name="Add_SQLUser_to_AzureDB.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:va-dev.database.windows.net:False:chs@venzoanalytics.com</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>va-dev.database.windows.net</AssociatedConnSrvName>
+          <AssociatedConnUserName>chs@venzoanalytics.com</AssociatedConnUserName>
+          <FullPath>Add_SQLUser_to_AzureDB.sql</FullPath>
+        </FileNode>
         <FileNode Name="add_sysadmin.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
-          <AssociatedConnUserName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:metricus.database.windows.net:False:chs@venzoanalytics.com</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>metricus.database.windows.net</AssociatedConnSrvName>
+          <AssociatedConnUserName>chs@venzoanalytics.com</AssociatedConnUserName>
           <FullPath>add_sysadmin.sql</FullPath>
         </FileNode>
         <FileNode Name="attach_db.sql">
@@ -97,9 +128,9 @@
           <FullPath>check_recoverymodel_simple.sql</FullPath>
         </FileNode>
         <FileNode Name="checkbatchreq-sec.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
-          <AssociatedConnUserName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:metricus.database.windows.net:False:chs@venzoanalytics.com</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>metricus.database.windows.net</AssociatedConnSrvName>
+          <AssociatedConnUserName>chs@venzoanalytics.com</AssociatedConnUserName>
           <FullPath>checkbatchreq-sec.sql</FullPath>
         </FileNode>
         <FileNode Name="checkconnectioncount.sql">
@@ -246,16 +277,10 @@
           <AssociatedConnUserName />
           <FullPath>Remove_Database_From_AO.sql</FullPath>
         </FileNode>
-        <FileNode Name="SQLQuery1.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
-          <AssociatedConnUserName />
-          <FullPath>SQLQuery1.sql</FullPath>
-        </FileNode>
         <FileNode Name="SQLQuery3.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
-          <AssociatedConnUserName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:metricus.database.windows.net:False:chs@venzoanalytics.com</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>metricus.database.windows.net</AssociatedConnSrvName>
+          <AssociatedConnUserName>chs@venzoanalytics.com</AssociatedConnUserName>
           <FullPath>SQLQuery3.sql</FullPath>
         </FileNode>
         <FileNode Name="UpdateAdministrator_MDS.sql">
