@@ -1,1 +1,0 @@
-EXEC [mdm].[udpSecuritySetAdministrator] @UserName='HHK\cso.its', @SID = 'S-1-5-21-842925246-963894560-725345543-201769', @PromoteNonAdmin = 1
