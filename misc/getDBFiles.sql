@@ -19,7 +19,7 @@ BEGIN
 	)
 	SELECT @name = name FROM DatabaseName WHERE ID = @begin
 	--SELECT @name
-	SET @sql = 'USE  ' + @name + ' ; SELECT name, physical_name, type_desc, state_desc FROM sys.database_files'
+	SET @sql = 'USE  [' + @name + '] ; SELECT name, physical_name, type_desc, state_desc FROM sys.database_files'
 	EXECUTE sp_executesql @sql
 
 	SET @begin = @begin + 1
