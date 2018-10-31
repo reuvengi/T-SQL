@@ -2,7 +2,7 @@ CREATE DATABASE [dba];
 USE [dba]
 CREATE TABLE [dbo].[secAudit](
     [ID] [INT] IDENTITY(1,1) NOT NULL,
-    [DBUserName] []
+    [DBUserName] [NVARCHAR(255)] NULL
 )
 
 USE [dba]

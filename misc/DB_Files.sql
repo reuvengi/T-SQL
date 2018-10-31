@@ -1,7 +1,7 @@
 --------------------------------------------------------------------------------------
 --
 -- Description: 
---
+--	Gets database files
 -- Revision history:
 -- v1.0, 2012-04-26 Initial version			Christian Soelje (cso.it) CBS
 --
@@ -16,6 +16,6 @@ BEGIN
 	FROM sys.database_files
 END	
 
-USE	<DatabaseName>
+USE	[DatabaseName]
 GO
 EXECUTE sp_msforeachdb 'SELECT * FROM sys.database_files'
