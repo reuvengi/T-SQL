@@ -6,7 +6,6 @@
 -- v1.0, 2018-11-15 Initial version        Christian Soelje (chso@netcompany.com) Netcompany
 --
 --------------------------------------------------------------------------------------------
-
 SELECT event_time
 	,session_server_principal_name AS Changed_by
 	,target_server_principal_name AS LoginName
