@@ -15,5 +15,8 @@ GRANT CONTROL SERVER TO [komb-fli-prod\g_komb-flip-sql01_prod_fli_komb_nchosting
 GO
 USE [DATABASE];
 CREATE USER [komb-fli-prod\g_komb-flip-sql01_prod_fli_komb_nchosting_dk_admin] FOR LOGIN [komb-fli-prod\g_komb-flip-sql01_prod_fli_komb_nchosting_dk_admin] WITH DEFAULT_SCHEMA=[dbo];
+GO
+ALTER ROLE [db_owner] ADD MEMBER [komb-fli-prod\g_komb-flip-sql01_prod_fli_komb_nchosting_dk_admin];
+GO
 DENY SELECT TO [komb-fli-prod\g_komb-flip-sql01_prod_fli_komb_nchosting_dk_admin];
 GO
