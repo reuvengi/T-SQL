@@ -18,5 +18,7 @@ CREATE USER [komb-fli-prod\g_komb-flip-sql01_prod_fli_komb_nchosting_dk_admin] F
 GO
 ALTER ROLE [db_owner] ADD MEMBER [komb-fli-prod\g_komb-flip-sql01_prod_fli_komb_nchosting_dk_admin];
 GO
+DENY SELECT on SCHEMA::dbo TO [komb-fli-prod\g_komb-flip-sql01_prod_fli_komb_nchosting_dk_admin];
+GO
 DENY SELECT TO [komb-fli-prod\g_komb-flip-sql01_prod_fli_komb_nchosting_dk_admin];
 GO
