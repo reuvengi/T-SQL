@@ -1,7 +1,7 @@
 --------------------------------------------------------------------------------------------
 --
 -- Description: 
---	Backing up all databases
+--	Getting all backupsets for all databases
 --
 -- Revision history:
 -- v1.0, 2016-11-03 Initial version			Christian Soelje (csolje@gmail.com)
