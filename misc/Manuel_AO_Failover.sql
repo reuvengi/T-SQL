@@ -9,11 +9,8 @@
 --
 --------------------------------------------------------------------------------------------
 --- YOU MUST EXECUTE THE FOLLOWING SCRIPT IN SQLCMD MODE.
-:Connect SQL-DB-PRD-205
+:Connect <FailOver SQL Server>
 
-ALTER AVAILABILITY GROUP [SQL-AO-PRD-005] FAILOVER;
-
-GO
-
+ALTER AVAILABILITY GROUP [AG-Group] FAILOVER;
 
 GO
