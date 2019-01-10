@@ -6,8 +6,6 @@
 -- v1.0, 2018-12-19 Initial version        Christian Soelje (chso@netcompany.com) Netcompany
 --
 --------------------------------------------------------------------------------------------
-
-
 DECLARE @Table TABLE(
         SPID INT,
         Status VARCHAR(MAX),
