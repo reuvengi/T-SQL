@@ -78,7 +78,7 @@ Step 5: Is the query actually slow?
 ************************************************************/
 SET STATISTICS IO, TIME ON;
 GO
-The Query that is slow
+--The Query that is slow
 SET STATISTICS IO, TIME ON;
 GO
 

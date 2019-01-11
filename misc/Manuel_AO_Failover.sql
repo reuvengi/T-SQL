@@ -9,7 +9,7 @@
 --
 --------------------------------------------------------------------------------------------
 --- YOU MUST EXECUTE THE FOLLOWING SCRIPT IN SQLCMD MODE.
-:Connect <FailOver SQL Server>
+--:Connect <FailOver SQL Server>
 
 ALTER AVAILABILITY GROUP [AG-Group] FAILOVER;
 
