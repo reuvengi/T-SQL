@@ -1,7 +1,7 @@
 --------------------------------------------------------------------------------------------
 --
 -- Description:
---
+--	Getting all the database files
 -- Revision history:
 -- v1.0, 2018-10-23 Initial version        Christian Soelje (chso@netcompany.com) Netcompany
 --
