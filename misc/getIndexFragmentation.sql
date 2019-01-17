@@ -6,7 +6,7 @@
 -- v1.0, 2018-10-17 Initial version        Christian Soelje (chso@netcompany.com) Netcompany
 --
 --------------------------------------------------------------------------------------------
-USE <DatabaseName>;  
+USE [DatabaseName];  
 GO
 -- Find the average fragmentation percentage of all indexes  
 -- in the HumanResources.Employee table.   
