@@ -8,7 +8,7 @@
 --
 --------------------------------------------------------------------------------------------
 
-SELECT  
+SELECT
    CONVERT(CHAR(100), SERVERPROPERTY('Servername')) AS Server, 
    msdb.dbo.backupset.database_name,  
    MAX(msdb.dbo.backupset.backup_finish_date) AS last_db_backup_date 
