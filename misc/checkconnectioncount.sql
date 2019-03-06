@@ -1,6 +1,7 @@
 --------------------------------------------------------------------------------------------
 --
 -- Description: 
+--	Send a connection report to recipients
 --
 -- Revision history:
 -- v1.0, 2016-09-23 Initial version			Christian Soelje (chso@netcompany.com) Netcompany
