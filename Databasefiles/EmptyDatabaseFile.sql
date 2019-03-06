@@ -7,7 +7,7 @@
 -- v1.0, 2019-01-15 Initial version        Christian Soelje (chso@netcompany.com) Netcompany
 --
 --------------------------------------------------------------------------------------------
-USE [PROD_AKT_Organizer]
+USE [Databasename]
 GO
 CHECKPOINT;
 GO
@@ -19,4 +19,4 @@ DBCC FREESYSTEMCACHE ('ALL');
 GO
 DBCC FREESESSIONCACHE;
 GO
-DBCC SHRINKFILE ('PROD_AKT_Organizer', EMPTYFILE);
+DBCC SHRINKFILE ('DBLogicalName', EMPTYFILE);
