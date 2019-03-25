@@ -7,7 +7,7 @@
 -- v1.0, 2018-10-16 Initial version Christian Soelje (chso@netcompany.com) Netcompany
 --
 --------------------------------------------------------------------------------------------
-use <databasename>
+use [<databasename>]
 go
 CHECKPOINT;
 GO
