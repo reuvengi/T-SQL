@@ -1,7 +1,7 @@
 --------------------------------------------------------------------------------------------
 --
 -- Description:
---  Getting a list over the backup history for all the databases
+--  Getting a list over the backup history for all the databases previous week
 --
 -- Revision history:
 -- v1.0, 2019-06-04 Initial version        Christian Solje (csolje@gmail.com) @dbamist
