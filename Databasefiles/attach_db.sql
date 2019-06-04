@@ -1,6 +1,6 @@
 --------------------------------------------------------------------------------------------
 --
--- Description: 
+-- Description:
 --
 --	Attaching a Database
 --
@@ -10,7 +10,7 @@
 --------------------------------------------------------------------------------------------
 USE [master]
 GO
-CREATE DATABASE [Parkering] ON 
+CREATE DATABASE [<DatabaseName>] ON
 ( FILENAME = N'<MDF File path>' ),
 ( FILENAME = N'<LDF File path>' )
  FOR ATTACH

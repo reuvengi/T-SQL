@@ -1,11 +1,12 @@
---------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
 --
 -- Description: 
+--	Send a connection report to recipients
 --
 -- Revision history:
--- v1.0, 2016-09-23 Initial version			Christian Soelje (cso.it) CBS
+-- v1.0, 2016-09-23 Initial version			Christian Soelje (chso@netcompany.com) Netcompany
 --
---------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
 create table ConnectionCount (
 	[spid] bigint NOT NULL,
 	[blocked] int NOT NULL,
