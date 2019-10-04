@@ -3,7 +3,7 @@
 -- Description:
 --  Generates the restore scripts.
 -- Revision history:
--- v1.0,  Initial version        Christian Soelje (chso@netcompany.com) Netcompany
+-- v1.0,  Initial version        Christian Soelje (csolje@gmail.com) @dbamist
 --
 --------------------------------------------------------------------------------------------
 

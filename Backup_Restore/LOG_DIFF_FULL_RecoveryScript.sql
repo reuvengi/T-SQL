@@ -5,7 +5,7 @@
 --  plus each transaction log since the last Differential backup
 --
 -- Revision history:
--- v1.0, 2019-02-06 Initial version        Christian Soelje (chso@netcompany.com) Netcompany
+-- v1.0, 2019-02-06 Initial version        Christian Soelje (csolje@gmail.com) @dbamist
 --
 --------------------------------------------------------------------------------------------
 /* Now lets run a simple script to generate a restore script
