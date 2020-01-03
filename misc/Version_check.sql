@@ -16,7 +16,8 @@ SERVERPROPERTY('ProductBuild') AS ProductBuild,
 SERVERPROPERTY('ProductUpdateReference') AS ProductUpdateReference,
 SERVERPROPERTY('ProductMajorVersion') AS ProductMajorVersion,
 SERVERPROPERTY('ProductMinorVersion') AS ProductMinorVersion,
-SERVERPROPERTY('ProductBuildType') AS ProductBuildType
+SERVERPROPERTY('ProductBuildType') AS ProductBuildType,
+SERVERPROPERTY('Edition') AS Edition
 GO
 
 --SELECT RIGHT(SUBSTRING(@@VERSION, CHARINDEX('Windows NT', @@VERSION), 14), 3) AS WindowsOS_Version

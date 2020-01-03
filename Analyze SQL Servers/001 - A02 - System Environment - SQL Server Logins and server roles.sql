@@ -15,10 +15,10 @@
 	Written by Uwe Ricken, db Berater GmbH
 
 	This script is intended only as a supplement to demos and lectures
-	given by Uwe Ricken.  
-  
-	THIS CODE AND INFORMATION ARE PROVIDED "AS IS" WITHOUT WARRANTY OF 
-	ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED 
+	given by Uwe Ricken.
+
+	THIS CODE AND INFORMATION ARE PROVIDED "AS IS" WITHOUT WARRANTY OF
+	ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED
 	TO THE IMPLIED WARRANTIES OF MERCHANTABILITY AND/OR FITNESS FOR A
 	PARTICULAR PURPOSE.
 ============================================================================*/
@@ -85,7 +85,7 @@ PIVOT
 		[processadmin],
 		[diskadmin],
 		[dbcreator],
-		[bulkadmin]	
+		[bulkadmin]
 	)
 ) AS pvt
 ORDER BY
@@ -93,7 +93,7 @@ ORDER BY
 	login_name;
 GO
 
--- Get a list of orphaned users
+-- 2. Get a list of orphaned users
 DECLARE @T TABLE
 (
 	database_name	VARCHAR(128),
