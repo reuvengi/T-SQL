@@ -1,2 +1,5 @@
-# T-SQL
-All my T-SQL scripts over the years
+# T-SQL Script
+
+## A collection of SQL Scripts
+
+All the scripts that is collected through the years.
