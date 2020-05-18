@@ -3,7 +3,7 @@
 -- Description:
 --
 -- Revision history:
--- v1.0, 2019-05-27 Initial version        Christian Soelje (chso@gmail.com) @dbamist
+-- v1.0, 2019-05-27 Initial version        Christian Soelje (csolje@gmail.com) @dbamist
 --
 --------------------------------------------------------------------------------------------
 SELECT *
