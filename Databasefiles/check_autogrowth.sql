@@ -4,7 +4,7 @@
 --	Backing up all databases
 --
 -- Revision history:
--- v1.0, 2016-11-24 Initial version			Christian Soelje Copenhagen Business School
+-- v1.0, 2016-11-24 Initial version			Christian Solje 
 --
 --------------------------------------------------------------------------------------------
 -- Drop temporary table if it exists
