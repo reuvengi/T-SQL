@@ -10,3 +10,4 @@ bin/terraform
 .vscode
 *.un~
 *.swp
+.vs
